@@ -1,0 +1,23 @@
+.boxes {
+    background-color: #032d62;
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.boxOne {
+    background-color: bisque;
+    height: 50px;
+    width: 150px;
+
+}
+
+.boxTwo {
+    background-color: darkgray;
+    height: 50px;
+    width: 150px;
+}
+
