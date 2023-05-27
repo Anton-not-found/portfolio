@@ -1,29 +1,56 @@
-.projects {
-    min-height: 100vh;
-    background-color: rgb(246, 126, 160);
+.projectsBlock {
+    /*min-height: 100vh;*/
+    background-color: #fff;
+    padding: 100px 0;
 
 }
 
 .projectsContainer {
-    height: 100%;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
-    flex-wrap: wrap;
-    border: 1px solid;
+    flex-wrap: nowrap;
 }
 
-.title{
-    background-color: #f80202;
+.title {
+    margin: 0 0 30px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5df4e;
+    color: rgba(0, 0, 0, 0.67);
+    position: relative;
 }
 
-.project{
+
+.title h2 {
+    margin: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 55px;
+    height: 1px;
+    bottom: -30px;
+    transform: translate(-50%, 50%);
+    left: 50%;
+}
+
+.projects {
     display: flex;
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
+}
 
+@media screen and (max-width: 624px) {
+    .projects {
+        justify-content: center;
+    }
 }
