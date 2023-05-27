@@ -1,6 +1,6 @@
 .footer{
     background-color: rgb(255, 83, 38);
-    /*min-height: 50vh;*/
+
 }
 
 .footerContainer{
@@ -14,6 +14,24 @@
     border: 1px solid;
     flex-wrap: wrap;
 }
+
+.socialIcons {
+    background-color: #032d62;
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.socialIconItem {
+    background-color: bisque;
+    height: 80px;
+    width: 80px;
+
+}
+
 
 .topText{
 

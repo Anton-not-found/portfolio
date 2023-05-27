@@ -1,10 +1,8 @@
-.work {
+.project {
     display: flex;
     flex-direction: column;
     width: 250px;
     align-items: center;
-    /*text-align: center;*/
-    /*border: 1px solid #e806f8;*/
 }
 
 .pictureProject {

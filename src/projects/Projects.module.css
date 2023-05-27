@@ -1,10 +1,10 @@
-.works {
+.projects {
     min-height: 100vh;
     background-color: rgb(246, 126, 160);
 
 }
 
-.worksContainer {
+.projectsContainer {
     height: 100%;
     width: 80%;
     margin: 0 auto;
@@ -20,7 +20,7 @@
     background-color: #f80202;
 }
 
-.work{
+.project{
     display: flex;
     width: 100%;
     justify-content: space-between;

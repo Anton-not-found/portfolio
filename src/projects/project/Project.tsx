@@ -1,13 +1,13 @@
 import React from 'react';
-import s from './Work.module.css'
+import s from './Project.module.css'
 
-type WorkPropsType = {
+type ProjectsPropsType = {
     title: string
     description: string
 }
-export const Work = (props: WorkPropsType) => {
+export const Project = (props: ProjectsPropsType) => {
     return (
-        <div className={s.work}>
+        <div className={s.project}>
                 <div className={s.pictureProject}>
                     <button className={s.button}>Смотреть</button>
                 </div>
