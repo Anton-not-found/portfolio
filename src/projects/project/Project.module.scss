@@ -1,0 +1,59 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
+.project {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: $backgroundTileForDescriptionColor;
+
+  .pictureProject {
+    border: 1px solid #e006f8;
+    background-color: $backgroundForPictures;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.4;
+    }
+
+    .button {
+      width: 100px;
+      height: 30px;
+      border-radius: 7px;
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  .projectInfo {
+    padding: 25px 20px;
+
+    .projectTitle {
+      @include text(('Poppins', sans-serif), 1.125rem, 1.2);
+    }
+
+    .description {
+      @include text(('Poppins', sans-serif), 1.0rem, 1.8);
+      color: $textDescriptionColor;
+    }
+  }
+}
+
+
+
+
+
