@@ -2,15 +2,15 @@
 
 .title {
   margin: 0 0 30px;
+  //border: 8px solid #e006f8;
   background-color: $titleBlockBackgroundColor;
-  color:$textDescriptionColor;
+  color: $textDescriptionColor;
   position: relative;
 
-  .title h2 {
+  .textTitle {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
     font-weight: 500;
     font-size: 30px;
     line-height: 1.2;
@@ -24,7 +24,7 @@
     background-color: black;
     width: 55px;
     height: 1px;
-    bottom: -30px;
+    bottom: -20px;
     transform: translate(-50%, 50%);
     left: 50%;
   }

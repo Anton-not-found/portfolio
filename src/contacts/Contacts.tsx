@@ -1,11 +1,12 @@
 import React from 'react';
-import s from './Contacts.module.css'
-
+import s from './Contacts.module.scss'
+import styleContainer from './../common/styles/Container.module.css'
+import {Title} from "../common/components/title/Title";
 export const Contacts = () => {
     return (
         <div className={s.contacts}>
-            <div className={s.contactsContainer}>
-                <h2 className={s.title}>Contacts</h2>
+            <div className={`${styleContainer.container} ${s.contactsContainer}`}>
+                <Title title={'Contacts'} />
                 <form className={s.contactForm}>
                     <input type="text"/>
                     <input type="text"/>
@@ -16,4 +17,5 @@ export const Contacts = () => {
         </div>
     );
 };
+
 

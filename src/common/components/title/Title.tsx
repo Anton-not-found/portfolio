@@ -8,7 +8,7 @@ type TitlePropsType = {
 export const Title = (props: TitlePropsType) => {
     return (
         <div className={s.title}>
-            <h2>{props.title}</h2>
+            <div className={s.textTitle}>{props.title}</div>
         </div>
     );
 };
