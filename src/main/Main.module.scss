@@ -1,0 +1,56 @@
+.mainBlock {
+  height: 100vh;
+  background-color: #f5df4e;
+
+
+  .text {
+    width: 550px;
+    //background-color: rgba(0, 255, 255, 0.29);
+    //border: 2px solid #56f806;
+
+    h2 {
+      font-weight: 500;
+      font-size: 40px;
+      //border: 1px solid #050505;
+      color: rgba(0, 0, 0, 0.82);
+    }
+
+    h1 {
+      font-weight: 800;
+      font-size: 70px;
+      //border: 1px solid #050505;
+      color: rgba(0, 0, 0, 0.82);
+    }
+  }
+
+  .photo {
+    height: 450px;
+    width: 450px;
+    //border: 1px solid #06e4f8;
+    border-radius: 450px;
+    //background-color: rgb(27, 23, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+
+      //background-color: #e006f8;
+      height: 400px;
+      width: 400px;
+      border-radius: 450px;
+      border: 14px solid white;
+    }
+  }
+}
+
+@media screen and (max-width: 874px) {
+  .containerMain {
+    justify-content: center;
+  }
+}
+
+
+
+
+
