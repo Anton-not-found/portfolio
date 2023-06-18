@@ -1,15 +1,15 @@
 .skillsBlock {
   /*min-height: 100vh;*/
-  background-color: rgba(178, 110, 243, 0.6);
-  border: 3px solid rgb(224, 6, 248);
+  background-color: white;
+  //border: 3px solid rgb(224, 6, 248);
 
   .skillsContainer {
-    border: 3px solid rgba(0, 102, 204, 0.63);
+    //border: 3px solid rgba(0, 102, 204, 0.63);
     flex-direction: column;
     justify-content: flex-start;
 
     .skills {
-      border: 1px solid #e806f8;
+      //border: 1px solid #e806f8;
       width: 100%;
       display: flex;
       justify-content: space-between;

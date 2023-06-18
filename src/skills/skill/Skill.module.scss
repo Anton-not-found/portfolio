@@ -1,23 +1,41 @@
 
 .skill {
-    width: 250px;
-    background-color: rgba(48, 135, 243, 0.44);
+  width: 250px;
+  background-color: rgba(9, 9, 9, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  //border: 1px solid #000000;
+  .title {
+
+  }
+
+  .icons {
+    height: 20px;
+    width: 100%;
+    //border: 1px solid #f80606;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    justify-content: space-between;
+    background-color: rgba(9, 9, 9, 0.05);
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 
     .icon {
-        height: 60px;
-        width: 60px;
-        background-color: green;
+      //border: 1px solid #000000;
+      background-color: #f5df4e;
     }
-    .title{
+    .progress{
+      background-color: white;
+    }
 
-    }
-    .description{
+  }
 
-    }
+
+  .description {
+
+  }
 }
 
 
