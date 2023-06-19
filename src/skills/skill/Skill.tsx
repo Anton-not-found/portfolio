@@ -1,14 +1,15 @@
 import React from 'react';
-import s from './Skill.module.scss'
+import s from './Skill.module.scss';
 
 
 
 type SkillPropsType = {
-    title:string
-    description:string
-    progressStyle:string
+    title: string
+    description: string
+    progressStyle: string
+    iconStyle:string
 }
-export const Skill = (props:SkillPropsType) => {
+export const Skill = (props: SkillPropsType) => {
 
     const progress = {
         width: props.progressStyle
@@ -16,6 +17,9 @@ export const Skill = (props:SkillPropsType) => {
 
     return (
         <div className={s.skill}>
+            <div className={s.skillObject}>
+                <img src={props.iconStyle} alt={''}/>
+            </div>
             <h3 className={s.title}>{props.title}</h3>
             <div className={s.icons}>
                 <div className={s.icon} style={progress}></div>
@@ -23,7 +27,7 @@ export const Skill = (props:SkillPropsType) => {
             </div>
 
 
-            <span className={s.description}>{props.description} </span>
+            <p className={s.description}>{props.description} </p>
         </div>
     );
 };

@@ -1,13 +1,25 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
 
 .skill {
   width: 250px;
-  background-color: rgba(9, 9, 9, 0.05);
+  //background-color: rgba(9, 9, 9, 0.05);
+
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   //border: 1px solid #000000;
+  .skillObject img {
+    height: 50px;
+    width: 50px;
+  }
+
   .title {
+    //color: #212529;
+    //font-family: 'Poppins', sans-serif;
+    //font-weight: 600;
+    @include text(('Poppins', sans-serif), 1.125rem, 1.2);
 
   }
 
@@ -18,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     background-color: rgba(9, 9, 9, 0.05);
-    color: #000000;
+    //color: #000000;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
 
@@ -26,16 +38,30 @@
       //border: 1px solid #000000;
       background-color: #f5df4e;
     }
-    .progress{
-      background-color: white;
+
+    .progress {
+      color: white;
+      background-color: #000000BC;
+      //border: 1px solid #e806f8;
+      font-size: 14px;
+
     }
 
   }
 
-
   .description {
 
+    padding: 25px 20px;
+    //border: 1px solid;
+    //text-align: center;
+    //color: #6c757d;
+    //line-height: 1.8;
+    //font-family: 'Poppins', sans-serif;
+    //font-weight: 400;
+    @include text(('Poppins', sans-serif), 1.0rem, 1.8);
+    color: $textDescriptionColor;
   }
+
 }
 
 

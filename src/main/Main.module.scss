@@ -34,7 +34,6 @@
     align-items: center;
 
     img {
-
       //background-color: #e006f8;
       height: 400px;
       width: 400px;
@@ -46,9 +45,10 @@
 
 @media screen and (max-width: 874px) {
   .containerMain {
-    justify-content: center;
+    justify-content: space-between;
   }
 }
+
 
 
 

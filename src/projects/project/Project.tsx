@@ -20,11 +20,11 @@ export const Project = (props: ProjectsPropsType) => {
     return (
         <div className={s.project}>
             <div className={s.pictureProject} style={props.style}>
-                <button onClick={onClickHandler} className={s.button}>Смотреть</button>
+                <button onClick={onClickHandler} className={s.button}>viewing</button>
             </div>
             <div className={s.projectInfo}>
-                <h4 className={s.projectTitle}>{props.title}</h4>
-                <span className={s.description}>{props.description}</span>
+                <h3 className={s.projectTitle}>{props.title}</h3>
+                <p className={s.description}>{props.description}</p>
             </div>
 
         </div>
